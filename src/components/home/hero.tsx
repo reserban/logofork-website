@@ -22,7 +22,7 @@ const Hero = () => {
                 Available on Desktop
               </span>
             </div>
-            <h1 className="max-w-screen-lg mx-auto text-3xl font-medium text-center text-zinc-800 sm:text-3xl md:text-5xl lg:text-6xl text-balance">
+            <h1 className="max-w-screen-lg mx-auto text-3xl font-semibold text-center text-zinc-800 sm:text-3xl md:text-5xl lg:text-6xl text-balance">
               Export Your Branding Projects With Ease
             </h1>
             <p className="max-w-screen-sm px-4 mx-auto text-sm text-center text-zinc-600 text-muted-foreground sm:text-base md:text-lg">
@@ -32,7 +32,7 @@ const Hero = () => {
             <div className="flex-col items-center justify-center hidden gap-3 pt-3 pb-8 lg:flex md:pb-8">
               <Button
                 size="default"
-                className="absolute px-4 py-2 mt-6 text-xs font-medium text-white transition-opacity rounded-md sm:mt-4 md:px-6 md:py-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-gradient-rotate sm:text-sm md:text-base hover:opacity-90"
+                className="absolute px-4 py-2 mt-6 text-xs font-semibold text-white transition-opacity rounded-md sm:mt-4 md:px-6 md:py-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-gradient-rotate sm:text-sm md:text-base hover:opacity-90"
                 onClick={() =>
                   (window.location.href = "https://app.logofork.com")
                 }
@@ -46,14 +46,13 @@ const Hero = () => {
 
           <div className="relative px-3 mx-auto mt-6 max-w-screen-2xl md:mt-10">
             <Image
-              src="https://framerusercontent.com/images/TXQOg8sezjMbo52phzfGXT17QxU.png?scale-down-to=2048"
+              src="/hero-screen2.webp"
               alt="Logofork Preview"
               width={1920}
               height={1080}
-              className="object-cover w-full h-full md:-mb-14  -mb-9 rounded-lg md:rounded-xl grayscale"
+              className="object-cover w-full h-full rounded-lg md:rounded-xl"
               priority
             />
-            <div className="absolute bottom-0 left-0 right-0 w-full h-16 mt-2 translate-y-20 bg-white border-t lg:translate-y-10 md:flex md:translate-y-10 border-zinc-300"></div>
           </div>
         </div>
       </div>

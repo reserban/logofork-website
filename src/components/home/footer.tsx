@@ -88,7 +88,7 @@ const Footer = () => {
             </g>
           </svg>
           <div className="relative max-w-screen-sm mx-auto mb-6">
-            <h1 className="mb-4 -mt-8 text-3xl font-normal text-balance md:text-4xl text-zinc-800">
+            <h1 className="mb-4 -mt-8 text-3xl font-medium text-balance md:text-4xl text-zinc-800">
               Be A Part Of Logofork
             </h1>
             <p className="text-muted-foreground md:text-lg text-zinc-600">
@@ -100,7 +100,7 @@ const Footer = () => {
                 size="default"
                 className="px-4 py-2 text-xs font-medium text-white transition-opacity rounded-md md:px-6 md:py-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-gradient-rotate sm:text-sm md:text-base hover:opacity-90"
                 onClick={() =>
-                  window.open("https://discord.gg/htrNgSgY", "_blank")
+                  window.open("https://discord.gg/H43KWB8fmu", "_blank")
                 }
                 data-umami-event="Join Discord"
               >
@@ -124,18 +124,7 @@ const Footer = () => {
       <footer className="relative z-10 w-full mb-8 -mt-7 lg:mb-0">
         <div className="px-4 mx-auto -mb-2 container-none sm:px-6">
           <div className="flex flex-col items-center justify-between gap-1 text-sm sm:text-md md:flex-row">
-            <div>
-              <a
-                href="https://unzet.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transition-all cursor-pointer hover:opacity-80"
-                data-umami-event="Visit Unzet"
-              >
-                Unzet
-              </a>{" "}
-              built it © 2025
-            </div>
+            <div>Logofork © 2025</div>
             <div>
               <a
                 href="mailto:logofork@unzet.com"

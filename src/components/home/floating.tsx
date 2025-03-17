@@ -155,11 +155,11 @@ const Floating = () => {
             <ExternalLink className="size-full text-zinc-600" />
           </div>
           <Image
-            src="https://framerusercontent.com/images/gNuoh3a55uuwTgMsuPufqJqBDc.png?scale-down-to=2048"
+            src="/reserban.jpg"
             alt="Reserban"
             width={64}
             height={64}
-            className="h-full w-full object-cover scale-x-[-1]"
+            className="h-full w-full object-cover rounded-xl"
           />
         </Link>
       </div>
